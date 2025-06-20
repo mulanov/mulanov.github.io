@@ -1,10 +1,10 @@
 # Site Settings
-title: "Your Name"
-email: "your.email@university.edu"
-description: "Academic website of Your Name"
+title: "Mikhail Ulanov"
+email: "mulanov@gmail.com"
+description: "Academic website of Mikhail Ulanov"
 baseurl: ""
-url: "https://your-username.github.io"
-github_username: your-username
+url: "https://mulanov.github.io"
+github_username: mulanov
 
 # Build settings
 markdown: kramdown

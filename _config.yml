@@ -1,0 +1,40 @@
+# Site Settings
+title: "Your Name"
+email: "your.email@university.edu"
+description: "Academic website of Your Name"
+baseurl: ""
+url: "https://your-username.github.io"
+github_username: your-username
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Navigation
+nav_pages:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "News"
+    url: "/news/"
+  - title: "CV"
+    url: "/cv/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Collaborations"
+    url: "/collaborations/"
+  - title: "Teaching"
+    url: "/teaching/"
+  - title: "Links"
+    url: "/links/"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
